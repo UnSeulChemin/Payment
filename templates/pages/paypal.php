@@ -3,11 +3,11 @@
 <?php ob_start(); ?>
 <main>
 
-    <section>
+    <section class="section-default">
 
         <div>
-            <h2>Payment Checkout</h2>
-            <p>Payment Checkout for Paypal</p>
+            <h2>Payment Paypal</h2>
+            <p>Payment for Paypal</p>
         </div>
 
     </section>

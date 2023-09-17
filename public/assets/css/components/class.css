@@ -37,6 +37,16 @@
 
 /* Generic */
 
+.section-default
+{
+    padding: 25px;
+}
+
+.section-default p:last-of-type
+{
+    padding: 0;
+}
+
 .bold
 {
     font-weight: bold;
