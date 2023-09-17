@@ -1,5 +1,17 @@
 :root
 {
+    /* Font */
+    --font-family: 'Montserrat', 'Open Sans', sans-serif;
+
+    /* Default */
+    --background-color-body: #cbf6db;  
+
+    /* Header */
+    --background-color-a-link: #4a536b;
+
+    /* Section */
+    --background-color-main: #aed6dc;
+
     /* Base Color */
     --white: #ffffff;
     --black: #000000;
