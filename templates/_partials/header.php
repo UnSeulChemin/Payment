@@ -3,11 +3,11 @@
     <nav>
 
         <div>
-			<h1>Paiement</h1>
+			<h1>Payment</h1>
 		</div>
 
         <div>
-            <a href="./">Accueil</a>
+            <a href="./">Homepage</a>
             <a href="paypal">Paypal</a>
         </div>
 

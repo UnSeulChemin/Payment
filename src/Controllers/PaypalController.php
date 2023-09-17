@@ -2,11 +2,8 @@
 
 // require_once('src/Model/Filler.php');
 
-function filler()
+function paypal()
 {
-	// functions
-	// $fillers = getFiller();
-
 	// vue
 	require('templates/pages/filler.php');
 }

@@ -2,7 +2,7 @@
 
 // require
 require_once('src/Controllers/HomepageController.php');
-require_once('src/Controllers/FillerController.php');
+require_once('src/Controllers/PaypalController.php');
 
 // router
 try
@@ -11,7 +11,7 @@ try
 	{
         if ($_GET['page'] === 'paypal')
         {
-			filler();
+			paypal();
         }
 
 		else
@@ -28,7 +28,5 @@ try
 
 catch (Exception $exception)
 {
-	// echo 'Error : ' . $exception->getMessage();
-
 	header('Location: ./');
 }
