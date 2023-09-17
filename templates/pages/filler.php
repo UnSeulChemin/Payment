@@ -6,8 +6,8 @@
     <section>
 
         <div>
-            <h2>Paypal Checkout</h2>
-            <p>Paypal Checkout Page.</p>
+            <h2>Payment Checkout</h2>
+            <p>Payment Checkout for Paypal</p>
         </div>
 
     </section>

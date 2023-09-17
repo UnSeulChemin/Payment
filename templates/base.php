@@ -21,4 +21,5 @@
 
 </body>
 <script src="public/assets/js/jquery-3.7.0.min.js"></script>
+<script src="public/assets/js/paypal.js"></script>
 </html>

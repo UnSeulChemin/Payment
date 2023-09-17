@@ -1,4 +1,4 @@
-<?php $title = "Accueil"; ?>
+<?php $title = "Homepage"; ?>
 
 <?php ob_start(); ?>
 <main>
@@ -6,8 +6,8 @@
     <section>
         
         <div>
-            <h2>Payment Checkout</h2>
-            <p>Paypal</p>
+            <h2>Payment Checkout Demo</h2>
+            <p>Payment Checkout Paypal & Stripe</p>
         </div>
 
     </section>
