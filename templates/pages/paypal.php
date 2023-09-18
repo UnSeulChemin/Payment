@@ -12,6 +12,16 @@
 
     </section>
 
+    <section>
+
+        <div>
+            <div id="paypal-button-container"></div>
+
+            <script src="https://www.paypal.com/sdk/js?client-id=AcgumP5G-PD3ndVrPUd5SM19OXXsfQGPOMiMIfIZuDvBInA26IjVTuz6z1w2QiemoFWOlt4obbpaKckO&currency=EUR"></script>
+        </div>
+
+    </section>
+
 </main>
 <?php $content = ob_get_clean(); ?>
 
