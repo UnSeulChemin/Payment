@@ -1,21 +1,18 @@
-window.paypal.Buttons({
+paypal.Buttons({
 
+    // order
     createOrder: function(data, actions)
     {
-        return actions.order.create(
-            {
-                purchase_units: [
-                    {
-                        amount:
-                        {
-                            value: '0.01'
-                        }
-                    }
-                ]
-            }
-        );
+        return actions.order.create({
+            purchase_units: [{
+                amount: {
+                    value: '0.01'
+                }
+            }]
+        });
     },
 
+    // approve
     onApprove: function(data, actions)
     {
         return actions.order.capture().then(function(details)
@@ -24,9 +21,10 @@ window.paypal.Buttons({
         })
     },
 
+    // error
     onError: function(e)
     {
-        console.error('Payment error : ', e);
+        console.error('Payment error :', e);
         alert('Payment failed.'); 
     }   
 

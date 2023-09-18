@@ -1,5 +1,7 @@
 <?php $title = "Paypal"; ?>
 
+<?php $script = '<script src="public/assets/js/paypal.js"></script>'; ?>
+
 <?php ob_start(); ?>
 <main>
 
@@ -16,8 +18,6 @@
 
         <div>
             <div id="paypal-button-container"></div>
-
-            <script src="https://www.paypal.com/sdk/js?client-id=AcgumP5G-PD3ndVrPUd5SM19OXXsfQGPOMiMIfIZuDvBInA26IjVTuz6z1w2QiemoFWOlt4obbpaKckO&currency=EUR"></script>
         </div>
 
     </section>
