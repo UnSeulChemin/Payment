@@ -16,7 +16,7 @@
 
     <section>
 
-        <div>
+        <div class="paypal-flex">
             <div id="paypal-button-container"></div>
         </div>
 
