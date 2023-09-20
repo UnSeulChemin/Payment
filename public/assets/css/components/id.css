@@ -1,0 +1,10 @@
+#card-element
+{
+    width: 250px;
+    background-color: var(--background-color-form-input);
+
+    margin: auto;
+    padding: 5px;
+    border: 1px solid var(--black-min);
+    border-radius: 5px;
+}

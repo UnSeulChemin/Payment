@@ -1,4 +1,48 @@
 
+/* Webkit */
+
+input::-webkit-input-placeholder
+{
+    font-size: 1.1em;
+    font-family: var(--font-family);
+    text-align: center;
+}
+
+textarea::-webkit-input-placeholder
+{
+    font-size: 1.1em;
+    font-family: var(--font-family);
+    text-align: center;
+}
+
+input::-moz-placeholder
+{
+    font-size: 1.1em;
+    font-family: var(--font-family);
+    text-align: center;
+}
+
+textarea::-moz-placeholder
+{
+    font-size: 1.1em;
+    font-family: var(--font-family);
+    text-align: center;
+}
+
+input:-ms-input-placeholder
+{
+    font-size: 1.1em;
+    font-family: var(--font-family);
+    text-align: center;
+}
+
+textarea:-ms-input-placeholder
+{
+    font-size: 1.1em;
+    font-family: var(--font-family);
+    text-align: center;
+}
+
 /* Generic */
 
 body
@@ -64,6 +108,11 @@ button
 
 /* Form */
 
+form
+{
+    padding-bottom: 25px;
+}
+
 form div
 {
     margin-bottom: 20px;
@@ -79,17 +128,22 @@ form div input
     border-radius: 5px;
 }
 
-form div input:first-of-type
-{
-    margin-right: 10px;
-}
-
-form div input:last-of-type
-{
-    margin-left: 10px;
-}
-
 form div input:focus
 {
     background-color: var(--white);
+}
+
+button[type="submit"]
+{
+    width: 100px;
+    cursor: pointer;
+
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+button[type="submit"]:hover
+{
+    opacity: 0.9;
 }

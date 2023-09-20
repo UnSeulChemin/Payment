@@ -19,13 +19,11 @@
         <form action="charge.php" method="post" id="payment-form">
 
             <div>
-                <label for="firstname">Prénom</label>
-                <input type="text" id="firstname" name="firstname" required>
+                <input type="text" id="firstname" name="firstname" placeholder="Prénom" required>
             </div>
 
             <div>
-                <label for="lastname">Nom</label>
-                <input type="text" id="lastname" name="lastname" required>
+                <input type="text" id="lastname" name="lastname" placeholder="Nom" required>
             </div>
 
             <input type="hidden" name="amount" value="10.00">
