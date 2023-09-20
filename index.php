@@ -3,6 +3,7 @@
 // require
 require_once('src/Controllers/HomepageController.php');
 require_once('src/Controllers/PaypalController.php');
+require_once('src/Controllers/StripeController.php');
 
 // router
 try
@@ -12,6 +13,11 @@ try
         if ($_GET['page'] === 'paypal')
         {
 			paypal();
+        }
+
+        else if ($_GET['page'] === 'stripe')
+        {
+			stripe();
         }
 
 		else
