@@ -9,6 +9,7 @@
 	<link rel="shortcut icon" type="image/png" href="public/assets/images/logo/favicon.png">
 	<script src="https://kit.fontawesome.com/118716b668.js" crossorigin="anonymous"></script>
 	<script src="https://www.paypal.com/sdk/js?client-id=AcgumP5G-PD3ndVrPUd5SM19OXXsfQGPOMiMIfIZuDvBInA26IjVTuz6z1w2QiemoFWOlt4obbpaKckO&currency=EUR"></script>
+	<script src="https://js.stripe.com/v3/"></script>
 </head>
 <body>
 

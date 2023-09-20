@@ -12,9 +12,13 @@
     /* Section */
     --background-color-main: #aed6dc;
 
+    /* Form */
+    --background-color-form-input: #f5f5ef;
+
     /* Base Color */
     --white: #ffffff;
     --black: #000000;
     --blue: #0000FF;
     --red: #FF0000;
+    --black-min: #333333;
 }

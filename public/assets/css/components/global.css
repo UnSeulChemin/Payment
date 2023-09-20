@@ -56,10 +56,40 @@ a
     display: inline-block;
 }
 
-/* Delete This Once Start */
-
-img
+button
 {
-    width: 150px;
-    height: 150px;
+    font-size: 15px;
+    font-family: var(--font-family);
+}
+
+/* Form */
+
+form div
+{
+    margin-bottom: 20px;
+}
+
+form div input
+{
+    width: 250px;
+    background-color: var(--background-color-form-input);
+
+    padding: 5px;
+    border: 1px solid var(--black-min);
+    border-radius: 5px;
+}
+
+form div input:first-of-type
+{
+    margin-right: 10px;
+}
+
+form div input:last-of-type
+{
+    margin-left: 10px;
+}
+
+form div input:focus
+{
+    background-color: var(--white);
 }
