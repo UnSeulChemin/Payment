@@ -16,17 +16,17 @@
 
     <section>
 
-        <form action="charge.php" method="post" id="payment-form">
+        <form action="charge" method="post" id="payment-form">
 
             <div>
-                <input type="text" id="firstname" name="firstname" placeholder="Prénom" required>
+                <input type="text" name="firstname" placeholder="Prénom" required>
             </div>
 
             <div>
-                <input type="text" id="lastname" name="lastname" placeholder="Nom" required>
+                <input type="text" name="lastname" placeholder="Nom" required>
             </div>
 
-            <input type="hidden" name="amount" value="10.00">
+            <input type="hidden" name="amount" value="10">
 
             <div id="card-element">
 
