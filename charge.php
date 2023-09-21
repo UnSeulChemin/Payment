@@ -33,7 +33,7 @@ if (isset($_POST['stripeToken'], $_POST['amount'], $_POST['firstname'], $_POST['
                 ]
             );
 
-            $response['message'] ='success';
+            $response['payment'] = 'success';
             $response['amount'] = $amount / 100;
 
             // BDD ou Redirect

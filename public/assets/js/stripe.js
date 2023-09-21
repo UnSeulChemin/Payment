@@ -6,7 +6,8 @@ card.mount('#card-element');
 
 card.addEventListener('change', function(event)
 {
-    let displayError = document.getElementById('card-error');
+    let displayError = document.getElementById('#card-error');
+
     if (event.error)
     {
         displayError.textContent = event.error.message;
@@ -19,7 +20,7 @@ card.addEventListener('change', function(event)
 })
 
 
-let form = document.querySelector('payment-form');
+let form = document.querySelector('#payment-form');
 form.addEventListener('submit', function(event)
 {
     event.preventDefault();
