@@ -28,13 +28,9 @@
 
             <input type="hidden" name="amount" value="10">
 
-            <div id="card-element">
+            <div id="card-element"></div>
 
-            </div>
-
-            <div id="card-error" role="alert">
-
-            </div>
+            <div id="card-error" role="alert"></div>
 
             <button type="submit">Payer</button>
 

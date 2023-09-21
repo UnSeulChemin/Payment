@@ -37,17 +37,18 @@ if (isset($_POST['stripeToken'], $_POST['amount'], $_POST['firstname'], $_POST['
             $response['amount'] = $amount / 100;
 
             // BDD ou Redirect
-            echo 'Paiement test réussie';
+            header('Location: ./');
+            // echo 'Paiement test réussie';
         }
         
         catch (\Stripe\Exception\CardException $e)
         {
-            $response['message'] = $e->getMessage();
+            $response['payment'] = $e->getMessage();
         }
 
         catch (Exception $e)
         {
-            $response['message'] = $e->getMessage();
+            $response['payment'] = $e->getMessage();
         }
     }
 }
